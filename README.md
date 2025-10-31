@@ -33,12 +33,12 @@ A modern, responsive shopping website that showcases products, allows users to a
 🧰 Project Structure:-
 
 ShopSense<br>
-│<br>
-├── index.html - for Main HTML file<br>
-├── style.css - for Styling for layout and components<br>
-├── script.js - JS logic for cart & interactions<br>
-└── assets/    - for Product images and icons<br>
-└──  Vercel	   - for Hosting and live deployment<br>
+<br>
+ index.html - for Main HTML file<br>
+ style.css - for Styling for layout and components<br>
+ script.js - JS logic for cart & interactions<br>
+assets    - for Product images and icons<br>
+  Verc   - for Hosting and live deployment<br>
 ---
 <hr>
  🖥️ Live Demo<br>
@@ -48,4 +48,4 @@ ShopSense<br>
 <hr>
 👨‍💻 Author:- Vinit Tiwari<br>
 Email:- vinittiwari1106@gmail.com<br>
-🔗 [Connect with me on LinkedIn](https://www.linkedin.com/in/vinit-tiwari-5b265b380)<br>
+Linkedin account:-https://www.linkedin.com/in/vinit-tiwari-5b265b380<br>
