@@ -1,6 +1,6 @@
 # ShopSense-Ecom-website<br>
 A modern responsive shopping website built with HTML, CSS, and JavaScript — where choices make sense.<br>
-### ~ Where Choices Make Sense!<br>
+### ShopSense ~ Where Choices Make Sense!<br>
 
 ShopSense is an elegant frontend e-commerce website built using **HTML, CSS, and JavaScript**.<br>  
 It provides a clean product showcase layout, an interactive cart system, and a fully responsive design suitable for beginner-to-intermediate web developers learning front-end concepts.<br>
@@ -24,11 +24,11 @@ It provides a clean product showcase layout, an interactive cart system, and a f
 
 ## 📂 Project Structure<br>
 
-ShopSense/<br>
+ShopSense<br>
 │<br>
-├── index.html = Main HTML file<br>
-├── style.css = for Styling for layout and components<br>
-├── script.js = JS logic for cart & interactions<br>
+├── index.html - for Main HTML file<br>
+├── style.css - for Styling for layout and components<br>
+├── script.js - JS logic for cart & interactions<br>
 ---
 
 ## 🖥️ Live Demo<br>
