@@ -33,16 +33,8 @@ ShopSense<br>
 
 ## 🖥️ Live Demo<br>
 
-👉 [View Deployed Website](#) *(Add your Vercel or GitHub Pages link here)*  <br>
+👉 [View Deployed Website](https://shop-sense-ecom-website.vercel.app/)<br>
 ---
-
-## 📸 Preview<br>
-
-![alt website](image.png) <br>
-![ShopSense Preview](https://via.placeholder.com/900x500.png?text=ShopSense+Preview)<br>
----
-
-
 
 👨‍💻 Author:- Vinit Tiwari<br>
 Email:- vinittiwari1106@gmail.com<br>
