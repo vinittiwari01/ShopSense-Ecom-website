@@ -1,51 +1,49 @@
-# ShopSense-Ecom-website
-A modern responsive shopping website built with HTML, CSS, and JavaScript — where choices make sense.
-# ShopSense
+# ShopSense-Ecom-website<br>
+A modern responsive shopping website built with HTML, CSS, and JavaScript — where choices make sense.<br>
+### ~ Where Choices Make Sense!<br>
 
-### ~ Where Choices Make Sense!
-
-ShopSense is an elegant frontend e-commerce website built using **HTML, CSS, and JavaScript**.  
-It provides a clean product showcase layout, an interactive cart system, and a fully responsive design suitable for beginner-to-intermediate web developers learning front-end concepts.
+ShopSense is an elegant frontend e-commerce website built using **HTML, CSS, and JavaScript**.<br>  
+It provides a clean product showcase layout, an interactive cart system, and a fully responsive design suitable for beginner-to-intermediate web developers learning front-end concepts.<br>
 ---
-## 🚀 Features
+## 🚀 Features<br>
 
-- 🧱 Responsive design compatible with desktop and mobile screens  
-- 🛒 Add-to-Cart functionality using JavaScript  
-- 🖼️ Dynamic product listing section  
-- 📧 Integrated contact (mailto) footer link  
-- 💡 Simple UI with modern styling  
+- 🧱 Responsive design compatible with desktop and mobile screens<br>  
+- 🛒 Add-to-Cart functionality using JavaScript <br> 
+- 🖼️ Dynamic product listing section <br> 
+- 📧 Integrated contact (mailto) footer link<br>  
+- 💡 Simple UI with modern styling <br> 
 ---
 
-## 🧰 Tech Stack
+## 🧰 Tech Stack<br>
 
- **HTML5** = Structure of the website.
- **CSS3** = Styling and layout.
-**JavaScript**  =  Functionality and cart operations.
+ **HTML5** = Structure of the website.<br>
+ **CSS3** = Styling and layout.<br>
+**JavaScript**  =  Functionality and cart operations.<br>
 ---
 
 
-## 📂 Project Structure
+## 📂 Project Structure<br>
 
-ShopSense/
-│
-├── index.html  Main HTML file
-├── style.css for Styling for layout and components
-├── script.js  JS logic for cart & interactions
+ShopSense/<br>
+│<br>
+├── index.html = Main HTML file<br>
+├── style.css = for Styling for layout and components<br>
+├── script.js = JS logic for cart & interactions<br>
 ---
 
-## 🖥️ Live Demo
+## 🖥️ Live Demo<br>
 
-👉 [View Deployed Website](#) *(Add your Vercel or GitHub Pages link here)*  
+👉 [View Deployed Website](#) *(Add your Vercel or GitHub Pages link here)*  <br>
 ---
 
-## 📸 Preview
+## 📸 Preview<br>
 
-![alt website](image.png) 
-![ShopSense Preview](https://via.placeholder.com/900x500.png?text=ShopSense+Preview)
+![alt website](image.png) <br>
+![ShopSense Preview](https://via.placeholder.com/900x500.png?text=ShopSense+Preview)<br>
 ---
 
 
 
-👨‍💻 Author:- Vinit Tiwari
-Email:- vinittiwari1106@gmail.com
+👨‍💻 Author:- Vinit Tiwari<br>
+Email:- vinittiwari1106@gmail.com<br>
 🔗 [Connect with me on LinkedIn](https://www.linkedin.com/in/vinit-tiwari-5b265b380)<br>
