@@ -40,54 +40,40 @@ const products = [
   },
   {
     id: 7,
-    name: "Teddy Bear",
-    price: 1399,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQghfmpSS65DfwiwmIR-FiqyYGh6utqgccwSg&s",
+    name: "Dumbell Set",
+    price: 299,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIZIDi3ll6vBwRbq7ezXBhKXo4B1GGMD4kmA&s",
   },
   {
     id: 8,
-    name: "Teddy Bear",
-    price: 1399,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQghfmpSS65DfwiwmIR-FiqyYGh6utqgccwSg&s",
+    name: "Sanitizer",
+    price: 299,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpm12JRLe3FG5t7mfXUYp4S92kQixtrsIy6Q&s",
   },
   {
     id: 9,
-    name: "Teddy Bear",
-    price: 1399,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQghfmpSS65DfwiwmIR-FiqyYGh6utqgccwSg&s",
+    name: "Trimmer",
+    price: 1999,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0qPDzYmlaEIYBR36bFpICEAl9BBO8bZlKyA&s",
   },
   {
     id: 10,
-    name: "Teddy Bear",
-    price: 1399,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQghfmpSS65DfwiwmIR-FiqyYGh6utqgccwSg&s",
+    name: "Smart phone",
+    price: 5999,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtG-bQLwuZOAuGB6RsUEA9B2esU1qvvJ76Pg&s",
   },
   {
     id: 11,
-    name: "Teddy Bear",
-    price: 1399,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQghfmpSS65DfwiwmIR-FiqyYGh6utqgccwSg&s",
+    name: "Wall clock",
+    price: 1459,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFIcVJRT8PFZzZHGBes4M9b-NpE51_PzbIWA&s",
   },
   {
     id: 12,
-    name: "Teddy Bear",
-    price: 1399,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQghfmpSS65DfwiwmIR-FiqyYGh6utqgccwSg&s",
-  },
-  {
-    id: 13,
-    name: "Teddy Bear",
-    price: 1399,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQghfmpSS65DfwiwmIR-FiqyYGh6utqgccwSg&s",
-  },
-  {
-    id: 14,
-    name: "Teddy Bear",
-    price: 1399,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQghfmpSS65DfwiwmIR-FiqyYGh6utqgccwSg&s",
-  },
- 
-];
+    name: "RC car",
+    price: 1199,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKxN72AshCdih80lktnim_UGff-zI68shMog&s",
+}];
 
 // SELECT ELEMENTS
 
@@ -177,6 +163,27 @@ checkoutBtn.addEventListener("click", () => {
   updateCart();
   cartModal.classList.add("hidden");
 });
+// ===== DARK MODE TOGGLE =====
+const darkModeToggle = document.getElementById('darkModeToggle');
+
+// Load user's previous choice (if saved)
+if (localStorage.getItem('darkMode') === 'enabled') {
+  document.body.classList.add('dark-mode');
+  darkModeToggle.textContent = '☀️ Light Mode';
+}
+
+darkModeToggle.addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode');
+
+  if (document.body.classList.contains('dark-mode')) {
+    darkModeToggle.textContent = '☀️ Light Mode';
+    localStorage.setItem('darkMode', 'enabled');
+  } else {
+    darkModeToggle.textContent = '🌙 Dark Mode';
+    localStorage.setItem('darkMode', 'disabled');
+  }
+});
+
 
 //  FOR INIT
 
