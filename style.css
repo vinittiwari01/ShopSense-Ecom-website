@@ -58,8 +58,9 @@ button {
 }
 
 button:hover {
-  background: #2980b9;
+  background: #e4ef13f1;
   transform: scale(1.05);
+  color: #121212;
 }
 
 /* ========== MAIN CONTENT ========== */
